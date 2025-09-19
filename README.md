@@ -1,0 +1,1 @@
+# chrome_extension_qr_generater
