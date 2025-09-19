@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- White background -->
+  <rect width="128" height="128" fill="white" />
+
+  <!-- Corner brackets with rounded ends -->
+  <g fill="none" stroke="#4a5568" stroke-width="8" stroke-linecap="round">
+    <!-- Top-left corner bracket -->
+    <path d="M 20 50 L 20 20 L 50 20" />
+
+    <!-- Top-right corner bracket -->
+    <path d="M 78 20 L 108 20 L 108 50" />
+
+    <!-- Bottom-left corner bracket -->
+    <path d="M 20 78 L 20 108 L 50 108" />
+
+    <!-- Bottom-right corner bracket -->
+    <path d="M 78 108 L 108 108 L 108 78" />
+  </g>
+
+  <!-- QR Code Pattern -->
+  <g>
+    <!-- Top-left colored square (coral/red) -->
+    <rect x="30" y="30" width="20" height="20" rx="4" fill="#4a5568" />
+    <rect x="35" y="35" width="10" height="10" rx="2" fill="#e57373" />
+
+    <!-- Top-right colored square (blue) -->
+    <rect x="78" y="30" width="20" height="20" rx="4" fill="#4a5568" />
+    <rect x="83" y="35" width="10" height="10" rx="2" fill="#7986cb" />
+
+    <!-- Bottom-left colored square (yellow/amber) -->
+    <rect x="30" y="78" width="20" height="20" rx="4" fill="#4a5568" />
+    <rect x="35" y="83" width="10" height="10" rx="2" fill="#ffb74d" />
+
+    <!-- Center QR pattern lines -->
+    <g fill="#4a5568">
+      <!-- Horizontal lines -->
+      <rect x="55" y="35" width="18" height="6" rx="3" />
+      <rect x="30" y="55" width="25" height="6" rx="3" />
+      <rect x="73" y="55" width="25" height="6" rx="3" />
+
+      <!-- Vertical lines -->
+      <rect x="61" y="30" width="6" height="18" rx="3" />
+      <rect x="61" y="55" width="6" height="18" rx="3" />
+      <rect x="61" y="80" width="6" height="18" rx="3" />
+
+      <!-- L-shaped pattern in bottom-right -->
+      <rect x="78" y="65" width="20" height="6" rx="3" />
+      <rect x="92" y="65" width="6" height="20" rx="3" />
+
+      <!-- Small squares in center -->
+      <rect x="55" y="65" width="6" height="6" rx="2" />
+      <rect x="67" y="65" width="6" height="6" rx="2" />
+      <rect x="55" y="77" width="6" height="6" rx="2" />
+
+      <!-- Additional pattern elements -->
+      <rect x="35" y="65" width="15" height="6" rx="3" />
+      <rect x="78" y="89" width="15" height="6" rx="3" />
+    </g>
+  </g>
+</svg>
